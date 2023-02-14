@@ -9,9 +9,10 @@ class Homepage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text("App"),
+          centerTitle: true,
         ),
         body: Column(
-          children: [Text("Hello world")],
+          children: [Text("apa kabar dunia")],
         ));
   }
 }
