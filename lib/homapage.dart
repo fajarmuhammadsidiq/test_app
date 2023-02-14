@@ -7,11 +7,11 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("App"),
-      ),
-      body: ListView(   
-      ),
-    );
+        appBar: AppBar(
+          title: Text("App"),
+        ),
+        body: Column(
+          children: [Text("Hello world")],
+        ));
   }
 }
