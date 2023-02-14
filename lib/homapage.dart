@@ -9,6 +9,7 @@ class Homepage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text("App"),
+          centerTitle: true,
         ),
         body: ListView(
           children: [
