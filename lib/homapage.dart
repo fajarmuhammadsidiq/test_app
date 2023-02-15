@@ -12,7 +12,12 @@ class Homepage extends StatelessWidget {
         ),
         body: ListView(
           children: [
-            ElevatedButton(onPressed: () {}, child: Text("apa kabar"))
+            ElevatedButton(
+              onPressed: () {},
+              child: Text("apa kabar"),
+            ),
+            SizedBox(height: 20),
+            Text("ini adalah data ke 2")
           ],
         ));
   }
