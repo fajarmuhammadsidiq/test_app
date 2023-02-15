@@ -16,8 +16,8 @@ class Homepage extends StatelessWidget {
               onPressed: () {},
               child: Text("apa kabar"),
             ),
-            SizedBox(height: 20),
-            Text("ini adalah data ke 2")
+            SizedBox(height: 90),
+            Text("-----")
           ],
         ));
   }
